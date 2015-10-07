@@ -1,0 +1,167 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        style="@style/PanelStyle"
+        android:layout_marginBottom="@dimen/panel_margin">
+
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_music_selector"
+            android:id="@id/panel_music">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_music"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_music"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_wifi_selector"
+            android:id="@id/panel_wifi">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_wifi"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_wifi"
+                />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_sound_reduce_selector"
+            android:id="@id/panel_sound_reduce">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_sound_reduce"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_sound_reduce"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_sound_add_selector"
+            android:id="@id/panel_sound_add">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_sound_add"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_sound_add"
+                />
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        style="@style/PanelStyle"
+        android:layout_marginBottom="@dimen/panel_margin">
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_video_selector"
+            android:id="@id/panel_video">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_video"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_video"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_fm_selector"
+            android:id="@id/panel_fm">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_fm"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_fm"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_gallery_selector"
+            android:id="@id/panel_light_reduce">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/bright_down"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_light_reduce"
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_user_selector"
+            android:id="@id/panel_light_add">
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/bright_up"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_light_add"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

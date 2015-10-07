@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#000000"
+    >
+
+    <!--上面版-->
+
+  <LinearLayout
+      style="@style/PanelStyle"
+      android:layout_marginBottom="@dimen/panel_margin">
+
+      <RelativeLayout
+        style="@style/PanelSingleStyle"
+          android:layout_marginRight="@dimen/panel_margin"
+          android:layout_weight="2"
+          android:orientation="horizontal"
+          android:background="@drawable/panel_weather_selector"
+          android:id="@id/panel_weather">
+
+
+          <TextView
+              android:id="@+id/center_line"
+              android:layout_width="0dp"
+              android:layout_height="0dp"
+              android:layout_centerInParent="true"
+              />
+
+          <ImageView
+              android:layout_toLeftOf="@id/center_line"
+              android:padding="50dp"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@id/weather_img"
+              android:src="@drawable/test1"
+              />
+          <TextView
+              android:layout_toRightOf="@id/center_line"
+              style="@style/WeatherTextStyle"
+              android:id="@id/weather_msg"
+              android:text="联网获取天气.."
+              />
+
+
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_marginRight="@dimen/panel_margin"
+          android:layout_marginLeft="@dimen/panel_margin"
+          style="@style/PanelSingleStyle"
+          android:layout_weight="1"
+          android:background="@drawable/panel_navi_selector"
+          android:id="@id/panel_navi">
+          <ImageView
+              style="@style/PanelImageViewStyle"
+              android:src="@drawable/panel_navi"
+
+              />
+          <TextView
+              style="@style/PanelTextViewStyle"
+              android:text="@string/panel_navi"
+              />
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_marginLeft="@dimen/panel_margin"
+          style="@style/PanelSingleStyle"
+          android:layout_weight="1"
+          android:background="@drawable/panel_settings_selector"
+          android:id="@id/panel_settings">
+          <ImageView
+              style="@style/PanelImageViewStyle"
+              android:src="@drawable/panel_settings"
+              />
+          <TextView
+              style="@style/PanelTextViewStyle"
+              android:text="@string/panel_settings"
+              />
+      </RelativeLayout>
+
+  </LinearLayout>
+
+
+
+    <!--下面版-->
+
+
+    <LinearLayout
+        style="@style/PanelStyle"
+        android:layout_marginTop="@dimen/panel_margin"
+        >
+
+        <RelativeLayout
+            android:layout_marginRight="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_dog_selector"
+            android:id="@id/panel_dog">
+
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_dog"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_dog"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            android:layout_marginRight="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_recoder_selector"
+            android:id="@id/panel_recoder">
+
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_recoder"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_recoder"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/panel_margin"
+            style="@style/PanelSingleStyle"
+            android:layout_weight="1"
+            android:background="@drawable/panel_phone_selector"
+            android:id="@id/panel_phone">
+
+            <ImageView
+                style="@style/PanelImageViewStyle"
+                android:src="@drawable/panel_phone"
+                />
+            <TextView
+                style="@style/PanelTextViewStyle"
+                android:text="@string/panel_phone"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

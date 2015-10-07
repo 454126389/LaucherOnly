@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" >
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--面板标题文字-->
+    <style  name="PanelTextViewStyle">
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:textColor">@android:color/white</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:layout_centerHorizontal">true</item>
+    <item name="android:layout_alignParentBottom">true</item>
+    <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+
+    <!--面板标题图片-->
+    <style  name="PanelImageViewStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+
+    <!--天气文字-->
+    <style  name="WeatherTextStyle">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <!--横向单面板-->
+    <style  name="PanelStyle">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--单面板-->
+    <style  name="PanelSingleStyle">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+</resources>

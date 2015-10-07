@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="panel_down">#a5f6c6bf</color>
+    <color name="night_background">#a1565656</color>
+    <color name="night_down_background">#3b565656</color>
+
+    <color name="panel_weather">#ff58d2ff</color>
+    <color name="panel_navi">#ff6fa7ff</color>
+    <color name="panel_settings">#ff5c98ff</color>
+    <color name="panel_dog">#ff16ff89</color>
+    <color name="panel_recoder">#ffb85cff</color>
+    <color name="panel_phone">#ff38cdff</color>
+
+
+    <color name="panel_music">#ff58d2ff</color>
+    <color name="panel_wifi">#ff6fa7ff</color>
+    <color name="panel_sound_add">#ff9f6eff</color>
+    <color name="panel_sound_reduce">#ff5c98ff</color>
+
+    <color name="panel_video">#ff22fffd</color>
+    <color name="panel_gallery">#ffb85cff</color>
+    <color name="panel_fm">#ff28ffa7</color>
+    <color name="panel_user">#ff38cdff</color>
+
+
+
+
+
+
+
+
+</resources>

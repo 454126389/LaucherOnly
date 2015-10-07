@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">LaucherOnly</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="panel_navi">导航</string>
+    <string name="panel_settings">设置</string>
+    <string name="panel_dog">电子预警</string>
+    <string name="panel_recoder">后视镜</string>
+    <string name="panel_phone">拨号</string>
+
+    <string name="panel_music">音乐</string>
+    <string name="panel_wifi">wifi</string>
+    <string name="panel_sound_reduce">音量-</string>
+    <string name="panel_sound_add">音量+</string>
+    <string name="panel_video">视频</string>
+    <string name="panel_fm">FM</string>
+    <string name="panel_light_reduce">亮度减少</string>
+    <string name="panel_light_add">亮度增加</string>
+
+
+</resources>

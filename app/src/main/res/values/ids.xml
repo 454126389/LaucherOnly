@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="weather_img" />
+    <item type="id" name="weather_msg" />
+
+    <item type="id" name="panel_weather" />
+    <item type="id" name="panel_navi" />
+    <item type="id" name="panel_settings" />
+    <item type="id" name="panel_dog" />
+    <item type="id" name="panel_recoder" />
+    <item type="id" name="panel_phone" />
+
+    <item type="id" name="panel_music" />
+    <item type="id" name="panel_wifi" />
+    <item type="id" name="panel_sound_reduce" />
+    <item type="id" name="panel_sound_add" />
+
+    <item type="id" name="panel_video" />
+    <item type="id" name="panel_fm" />
+    <item type="id" name="panel_light_reduce" />
+    <item type="id" name="panel_light_add" />
+
+
+</resources>
